@@ -75,3 +75,7 @@ gem 'pry-rails'
 gem 'bootstrap-sass'
 
 gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
+
+gem 'bcrypt'
+
+gem "carrierwave"
