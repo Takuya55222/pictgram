@@ -44,6 +44,8 @@ h1, h2 {
 
 .form-control {
   height: 45px;
+  background-color: pink;
+  
 }
 
 .users-new-wrapper {
@@ -55,12 +57,14 @@ h1, h2 {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+  
 
   .users-new-container {
     padding-top: 220px;
-
+    
     .form-group {
       margin-bottom: 20px;
+      
     }
   }
 }
@@ -136,6 +140,19 @@ h1, h2 {
       width: 35px;
       height: 30px;
       margin-left: 20px;
+      filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
     }
+    
+    .topic-index-icon-red {
+      width: 35px;
+      height: 30px;
+      margin-left: 20px; 
+      color: black;
+      // filter:brightness(0);
+      
+    } 
+    
   }
 }
+
+

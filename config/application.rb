@@ -1,8 +1,3 @@
-class Application < Rails::Application
-  config.autoload_paths += Dir[Rails.root.join('app', 'uploaders')]
-end
-
-
 require_relative 'boot'
 
 require 'rails/all'
@@ -20,5 +15,6 @@ module Pictgram
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+     config.autoload_paths += Dir[Rails.root.join('app', 'uploaders')]
   end
 end
