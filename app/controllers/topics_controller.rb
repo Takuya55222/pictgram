@@ -1,8 +1,8 @@
 class TopicsController < ApplicationController
   def index
     @topics = Topic.all.includes(:favorite_users)
+    
   end
-  
   def new
     @topic = Topic.new
   end
@@ -16,6 +16,10 @@ class TopicsController < ApplicationController
       flash.now[:danger] = "投稿に失敗しました"
       render :new
     end
+    
+  　def destroy
+  　  redirect_to("/topics")
+  　end
   end
 
   private

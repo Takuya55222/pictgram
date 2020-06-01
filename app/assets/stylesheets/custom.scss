@@ -136,22 +136,27 @@ h1, h2 {
       width: 100%;
     }
 
+    
+    
+    
     .topic-index-icon {
       width: 35px;
       height: 30px;
       margin-left: 20px;
+      
       filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
     }
+    
     
     .topic-index-icon-red {
       width: 35px;
       height: 30px;
       margin-left: 20px; 
-      color: black;
-      // filter:brightness(0);
+      
+
+      color: blue;
       
     } 
-    
   }
 }
 
